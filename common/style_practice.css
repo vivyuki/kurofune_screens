@@ -1,0 +1,48 @@
+@charset "UTF-8" ;
+
+@media screen and ( max-width:479px )
+{
+    p
+    {
+        color: #f00 ;	/* 赤色 */
+    }
+}
+
+/*bottun css*/
+.btn_top{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #a9a9a9;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 100px;
+}
+.btn{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #a9a9a9;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 200px;
+}
+
+/*grid css*/
+.grid {
+    width: 700px;
+}
+li {
+    margin: 5px;
+    float: left;
+    list-style: none;
+}
+
+/*table css*/
+table {
+    border-collapse: collapse;
+}
+table th, table td {
+    border: solid 1px black;
+    /*実線 1px 黒*/
+}

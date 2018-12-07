@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+header {
+    height: 48px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    max-width: 50%;
+    background-color: #eee8aa;
+    margin: 0 auto;
+}
+
+p {
+    max-width: 70%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+a {
+    text-align: center;
+}
+
+
+/* メニューバー部分のデザイン指定 */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1b2538;
+}
+li {
+    float: left;
+    border-right: 1px solid #bbbbbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #a9bce2;
+}
+.active {
+    background-color: #da3c41;
+}
